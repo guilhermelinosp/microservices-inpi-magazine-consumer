@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\guilh\\OneDrive\\Desktop\\microservice-inpi-magazine-consumer\\INPI\\INPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\guilh\\OneDrive\\Desktop\\microservice-inpi-magazine-consumer\\INPI\\INPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\guilh\\OneDrive\\Desktop\\microservice-inpi-magazine-consumer\\INPI\\INPI.csproj",
+        "projectName": "INPI",
+        "projectPath": "C:\\Users\\guilh\\OneDrive\\Desktop\\microservice-inpi-magazine-consumer\\INPI\\INPI.csproj",
+        "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guilh\\OneDrive\\Desktop\\microservice-inpi-magazine-consumer\\INPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.4, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.9.1, )"
+            },
+            "Selenium.WebDriver.MicrosoftWebDriver": {
+              "target": "Package",
+              "version": "[10.0.17134, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

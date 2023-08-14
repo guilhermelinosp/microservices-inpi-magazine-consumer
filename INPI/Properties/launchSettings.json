@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "INPI": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
